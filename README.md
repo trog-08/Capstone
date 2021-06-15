@@ -1,4 +1,4 @@
-# Udacity project #4 - Natural language processor #
+# Udacity project #5 - Capstone project #
 This project was created as a part of the Udacity Front End Developer Nanodegree program.
 ## What is it? ##
 The natural language processor project aims to perform meaningful sentiment analysis on URLs based on the Meaning cloud sentiment analysis API.

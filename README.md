@@ -1,7 +1,7 @@
 # Udacity project #5 - Capstone project #
 This project was created as a part of the Udacity Front End Developer Nanodegree program.
 ## What is it? ##
-The natural language processor project aims to perform meaningful sentiment analysis on URLs based on the Meaning cloud sentiment analysis API.
+The Capstone project aims to provide travel information based on multiple API calls.
 ## Installation ##
 This project uses Meaning Cloud Language Identification API.
 

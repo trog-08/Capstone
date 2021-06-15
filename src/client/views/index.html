@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Travel and weather App</title>
+    <meta name="description" content="The homepage for my personal blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"/>
+  </head>
+
+  <body>
+    <div class="container">
+    <header>
+     <h1>Should I bring an umbrella on this trip?</h1>
+    </header>
+
+    <section class="userInput">
+      <div id="app">
+        <div class="city">
+          <label for="city">Where are you going?</label>
+          <input type="text" id="city" placeholder="Enter City Here" />
+        </div>
+        <div class="dateGoing">
+          <label for="date">When are you going?</label>
+          <input type="date" class="datePicker" />
+        </div>
+        <div class="dateReturning">
+          <label for="date">When are you coming back?</label>
+          <input type="date" class="datePicker" />
+        </div>
+        <button id="generate" type="submit">Submit</button>
+      </div>
+      </section>
+      <section class="results">
+    <div class="output">
+      <h3>Trip length</h3>
+      <div id="details"></div>
+      <h3>Weather forecast</h3>
+      <div id="content"></div>
+      </div>
+      </section>
+      <section class="image-div">
+        <div class="pbimg">
+      <img id="image" />
+    </div>
+  </section>
+
+    <footer>
+      <p>A Ben website (so not great....)</p>
+  </footer>
+    </div>
+
+    <!-- <script>
+      // Check that service workers are supported
+      if ("serviceWorker" in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script> -->
+  </body>
+</html>

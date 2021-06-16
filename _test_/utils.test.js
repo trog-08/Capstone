@@ -1,3 +1,5 @@
+//Client side testing
+
 import  { sum } from '../src/client/js/utils'
 import  { validateString } from '../src/client/js/utils'
 test('adds 1 + 2 to equal 3', () => {

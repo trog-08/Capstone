@@ -55,4 +55,4 @@ app.post("/pixabay", (req, res) => {
 });
 
 // export
-module.exports = server;
+module.exports = app;

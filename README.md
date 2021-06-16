@@ -26,3 +26,4 @@ To complete this project I used various sources to assist with getting everythin
 * Mentor assistance and chat
 * Stack overflow
 * MDN web docs
+* Test files based on earlier Mentor ffedback. My functions use DOM content and can't be tested in this environment.
